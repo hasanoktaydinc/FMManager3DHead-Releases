@@ -6,7 +6,7 @@ A BepInEx 6 (IL2CPP) plugin for Football Manager 27 that replaces your manager's
 
 You need BepInEx 6 (IL2CPP) installed for the game. Then:
 
-1. Download the latest `FMManager3DHead-v….zip` from [Releases](https://github.com/hasanoktaydinc/FMManager3DHead-Releases/releases) and unzip it.
+1. Download the latest `FMManager3DHead-v….zip` from [Releases](../../releases) and unzip it.
    - **Mac:** double-click **Install on Mac.command**. The first time macOS may refuse to open it because it was downloaded: right-click it and choose **Open**, or allow it in **System Settings → Privacy & Security → Open Anyway**.
    - **Windows:** double-click **Install on Windows.bat**.
 
@@ -232,7 +232,7 @@ Most settings can be changed in the in-game panel (**Edit 3D Head** or **Ctrl+Sh
 | `Language` | Auto | Language of the panel and the Edit 3D Head button. `Auto` uses the game's language (English if there is no file for it). Or the name of a file in the `lang` folder: `en`, `tr`, `de`, `pt`, `fr`, `es`, `it`, `pl`, or one you added. |
 | `EditorButton` | true | Shows an **Edit 3D Head** button on the manager appearance screen (creating your manager or changing its looks), next to **Confirm**. It opens the settings panel. |
 | `FaceCache` | true | Saves each face's finished textures in `faces/cache`, so the face loads in a moment the next time instead of being processed again (seconds). Made again by itself when the face file or a setting that changes the textures changes. The folder can be deleted at any time. |
-| `CheckForUpdates` | true | Looks once per game start whether a newer version is published on [GitHub](https://github.com/hasanoktaydinc/FMManager3DHead-Releases/releases); the panel then shows a link to it. Nothing is downloaded or installed by itself. |
+| `CheckForUpdates` | true | Looks once per game start whether a newer version is out; the panel then shows a link to its download page. Nothing is downloaded or installed by itself. |
 | `SavePortraits` | true | Saves the 2D portraits drawn with your face (in `faces/portraits`) and shows the saved picture the next time, so screens with your portrait open without waiting. A new portrait is drawn by itself when the manager's looks in that career (hair, outfit…), the profile's settings or its face change. The panel's **Redraw 2D portraits** button deletes the saved ones. |
 | `Hotkey` | Ctrl+Shift+H | Keyboard shortcut that opens and closes the settings panel anywhere in the game. Modifiers `Ctrl` (on a Mac, Command also counts as Ctrl), `Shift`, `Alt`, `Cmd`, then one key (`A`–`Z`, `F1`–`F12`, `0`–`9`…), for example `Ctrl+Shift+H` or `F8`. Pick a combination you have not given to anything in the game. Empty or `None` turns it off. |
 | `ManagerIds` | (empty) | Only used until the first face profile exists (see [One face per manager profile](#one-face-per-manager-profile)): the manager IDs whose 2D portrait gets the head. With profiles, portraits are recognised by the profile. |
